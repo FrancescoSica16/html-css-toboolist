@@ -4,15 +4,22 @@
     padding: 0;
 }
 
+body{
+    background-color:lightgray;
+}
 header{
     height: 65px;
+    background-color: white;
 }
 
-main{
+.container{
     width: 70%;
-    padding: 10px 50px 20px 50px;
-    background-color: teal;
-    margin: auto;  
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: white; 
+
 }
 
 .logo-text{
@@ -23,6 +30,34 @@ main{
 
 .button-section{
     height: 60px;
-    border-bottom: 5px lightgray;
+    border-bottom: 5px solid  lightgray;  
 }
 
+.padding50{
+    padding-left: 50px ;
+    padding-right: 50px;
+}
+
+.task-type{
+    font-size: large;
+    font-weight: bolder;
+    color:rgb(66, 63, 63);
+}
+
+.task-type:before{
+    content: "\25BE";
+
+}
+
+.task:before{
+    content: "\2713";
+    color: green;
+    padding-left: 5px;
+}
+
+.activity{
+    
+}
+#check
+
+#uncheck

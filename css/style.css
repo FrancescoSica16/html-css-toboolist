@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 65px;
+}
+
+main{
+    width: 70%;
+    padding: 10px 50px 20px 50px;
+    background-color: teal;
+    margin: auto;  
+}
+
+.logo-text{
+    display: inline-block;
+    vertical-align: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-section{
+    height: 60px;
+    border-bottom: 5px lightgray;
+}
+

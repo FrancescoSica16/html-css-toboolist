@@ -14,7 +14,8 @@ header{
 
 ul {
     list-style: none;
-   }
+}
+
 .container{
     width: 70%;
     padding-top: 10px;
@@ -22,9 +23,14 @@ ul {
     margin: auto;
     margin-top: 25px;
     background-color: white; 
-
 }
 
+.task-type{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.task{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .logo-text{
     display: inline-block;
     vertical-align: 15px;
@@ -34,11 +40,16 @@ ul {
 .button-section{
     height: 40px;
     border-bottom: 5px solid  lightgray;  
+    margin-bottom: 16px;
 }
 
 .padding50{
     padding-left: 50px ;
     padding-right: 50px;
+}
+
+.new-task , .today , .upcoming{
+    margin-bottom: 16px;
 }
 
 .task-type{
@@ -52,16 +63,29 @@ ul {
 
 }
 
-#check.task:before{
+.check.task:before{
     content: "\2713";
     color: green;
     padding-left: 5px;
+    border: green solid 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+    width: 12px;
+    height: 20px;
+
 }
 
-#uncheck.task:before{
+.uncheck.task:before{
     content: "\2718";
     color: rgb(128, 0, 0);
     padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    border: rgb(128, 0, 0) solid 1px;
+    border-radius: 15px;
+    width: 12px;
+    height: 20px;
 }
 .add-button{
     background-color:#33bdef;
@@ -78,11 +102,9 @@ ul {
     vertical-align: middle; 
 }
 
-
-#editorial{
-    background-color:#33bdef;
+.badge{
     border-radius:12px;
-    border:1px solid #057fd0;
+    border:1px solid;
     display:inline-block;
     cursor:pointer;
     color:#ffffff;
@@ -90,7 +112,34 @@ ul {
     font-size:10px;
     padding:3px 12px;
     text-decoration:none;
-    vertical-align: middle;            
+    vertical-align: middle;  
+}
+.editorial{
+    background-color:#33bdef;
+    border-color: #057fd0;            
+}
+
+.q1-goals{
+    background-color:#ef33e6;
+    border-color: #5a0053; 
+}
+
+.recluting{
+    background-color:#33ef4c;
+    border-color: #005a14; 
+}
+.mobile{
+    background-color:#efad33;
+    border-color: #5a3e00; 
+}
+
+.website{
+    background-color:#f362d4;
+    border-color: #5a0047; 
+}
+.sales{
+background-color:#b3f108;
+border-color: #425a00; 
 }
 
 #editorial{
@@ -120,12 +169,6 @@ ul {
     text-decoration:none;
     vertical-align: middle;            
 }
-#none{
+.none{
     display: none;
 }
-
-
-#check
-
-#uncheck
-
